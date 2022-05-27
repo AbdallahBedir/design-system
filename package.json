@@ -1,17 +1,17 @@
 {
-  "name": "sixfootsixdesigns-react-library-boilerplate",
+  "name": "abdallahbedir-design-system",
   "license": "MIT",
   "version": "0.0.0",
   "private": false,
   "description": "React Typescript Library Boilerplate",
-  "author": "James Olson",
-  "homepage": "https://github.com/sixfootsixdesigns/React-Library-Boilerplate",
+  "author": "Abdallah Bedir",
+  "homepage": "https://github.com/AbdallahBedir/design-system.git",
   "bugs": {
-    "url": "https://github.com/sixfootsixdesigns/React-Library-Boilerplate/issues"
+    "url": "https://github.com/AbdallahBedir/design-system.git/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/sixfootsixdesigns/React-Library-Boilerplate.git"
+    "url": "git+https://github.com/AbdallahBedir/design-system.git.git"
   },
   "scripts": {
     "build": "yarn clean; rollup -c",
@@ -34,7 +34,8 @@
   "module": "index.esm.js",
   "types": "index.d.ts",
   "dependencies": {
-    "classnames": "^2.2.6"
+    "classnames": "^2.2.6",
+    "styled-components": "^5.3.5"
   },
   "peerDependencies": {
     "react": "^16.8.0",
@@ -73,7 +74,7 @@
     "hygen": "^6.0.4",
     "identity-obj-proxy": "^3.0.0",
     "jest": "^26.6.3",
-    "node-sass": "^5.0.0",
+    "node-sass": "^7.0.1",
     "prettier": "^2.2.0",
     "react": "^16.14.0",
     "react-dom": "^16.14.0",
