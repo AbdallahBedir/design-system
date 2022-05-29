@@ -1,7 +1,7 @@
 {
   "name": "abdallahbedir-design-system",
   "license": "MIT",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "private": false,
   "description": "React Typescript Library Boilerplate",
   "author": "Abdallah Bedir",
@@ -30,9 +30,9 @@
     "component:new": "hygen component with-prompt",
     "publish": "npx semantic-release --no-ci"
   },
-  "main": "index.js",
-  "module": "index.esm.js",
-  "types": "index.d.ts",
+  "main": "./dist/index.js",
+  "module": "./dist/index.esm.js",
+  "types": "./dist/index.d.ts",
   "files": [
     "/dist"
   ],
