@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/AbdallahBedir/design-system.git.git"
+    "url": "git+https://github.com/AbdallahBedir/design-system.git"
   },
   "scripts": {
     "build": "yarn clean; rollup -c",
