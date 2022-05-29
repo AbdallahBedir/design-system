@@ -116,7 +116,7 @@
   },
   "release": {
     "branches": [
-      "master",
+      "develop",
       "next"
     ],
     "preset": "conventionalcommits",
