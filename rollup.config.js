@@ -6,6 +6,7 @@ import pkg from './package.json';
 import resolve from '@rollup/plugin-node-resolve';
 import copy from 'rollup-plugin-copy';
 import ts from 'typescript';
+import peerDepsExternal from 'rollup-plugin-peer-deps-external';
 
 export default {
   input: './src/index.ts',
@@ -23,6 +24,7 @@ export default {
     },
   ],
   plugins: [
+    peerDepsExternal(),
     resolve(),
     commonjs(),
     postcss(),
