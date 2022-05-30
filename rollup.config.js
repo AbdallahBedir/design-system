@@ -55,21 +55,21 @@ export default {
         comments: false,
       },
     }),
-    copy({
-      targets: [
-        { src: 'LICENSE', dest: 'dist' },
-        { src: 'README.md', dest: 'dist' },
-        {
-          src: 'package.json',
-          dest: 'dist',
-          transform: (content) => {
-            const { scripts, devDependencies, husky, release, engines, ...keep } = JSON.parse(
-              content.toString()
-            );
-            return JSON.stringify(keep, null, 2);
-          },
-        },
-      ],
-    }),
+    // copy({
+    //   targets: [
+    //     { src: 'LICENSE', dest: 'dist' },
+    //     { src: 'README.md', dest: 'dist' },
+    //     {
+    //       src: 'package.json',
+    //       dest: 'dist',
+    //       transform: (content) => {
+    //         const { scripts, devDependencies, husky, release, engines, ...keep } = JSON.parse(
+    //           content.toString()
+    //         );
+    //         return JSON.stringify(keep, null, 2);
+    //       },
+    //     },
+    //   ],
+    // }),
   ],
 };
