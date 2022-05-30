@@ -1,5 +1,12 @@
 # Changelog
 
+### [1.0.1](https://github.com/AbdallahBedir/design-system/compare/v1.0.0🚀...v1.0.1🚀) (2022-05-30)
+
+
+### Bug Fixes
+
+* update package json description ([667ffe0](https://github.com/AbdallahBedir/design-system/commit/667ffe036cf677e2e80a1ec1c127b0102a3ae09f))
+
 ## 1.0.0 (2022-05-30)
 
 
