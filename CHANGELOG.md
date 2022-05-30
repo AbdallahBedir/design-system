@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.0](https://github.com/AbdallahBedir/design-system/compare/v1.0.1🚀...v1.1.0🚀) (2022-05-30)
+
+
+### Features
+
+* add job name ([aa7584b](https://github.com/AbdallahBedir/design-system/commit/aa7584b7c62592c682e6fa275d83dbc99fdae5fa))
+
 ### [1.0.1](https://github.com/AbdallahBedir/design-system/compare/v1.0.0🚀...v1.0.1🚀) (2022-05-30)
 
 
