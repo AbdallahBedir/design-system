@@ -2,6 +2,7 @@
   "compilerOptions": {
     "allowSyntheticDefaultImports": true,
     "declaration": true,
+    "declarationDir": "types",
     "esModuleInterop": true,
     "experimentalDecorators": true,
     "jsx": "react",
@@ -12,7 +13,7 @@
     "noImplicitReturns": true,
     "noUnusedLocals": true,
     "noUnusedParameters": true,
-    "outDir": "./dist",
+    "outDir": "dist",
     "pretty": true,
     "sourceMap": true,
     "strict": true,

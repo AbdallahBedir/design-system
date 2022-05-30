@@ -58,5 +58,4 @@ jobs:
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
         run: |
           ls -a 
-          cd dist/
           npx semantic-release
