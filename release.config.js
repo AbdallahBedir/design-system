@@ -1,6 +1,7 @@
 module.exports = {
   branches: ['develop'],
   preset: 'conventionalcommits',
+  tagFormat: 'v${version}🚀',
   plugins: [
     [
       '@semantic-release/commit-analyzer',
