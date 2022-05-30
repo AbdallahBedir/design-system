@@ -1,5 +1,16 @@
 # Changelog
 
+## [1.8.0](https://github.com/AbdallahBedir/design-system/compare/v1.7.0...v1.8.0) (2022-05-30)
+
+
+### Features
+
+* add npmrc file ([2907f07](https://github.com/AbdallahBedir/design-system/commit/2907f072f8c46fc852fa809eb26ee62c57b51771))
+* add npmrc file ([9a34cc2](https://github.com/AbdallahBedir/design-system/commit/9a34cc2c79c7cc321d49a195cc162db5e5c7615f))
+* chkhd ([4e87235](https://github.com/AbdallahBedir/design-system/commit/4e872351bbe778bb4047cbb1716368e9073c3210))
+* chkhd ([8df5162](https://github.com/AbdallahBedir/design-system/commit/8df5162aca5347f4135b42c8b44c071928941b8b))
+* chkhd ([8560e45](https://github.com/AbdallahBedir/design-system/commit/8560e4541a7e5083c1c58da1524f6593cf391e00))
+
 ## [1.7.0](https://github.com/AbdallahBedir/design-system/compare/v1.6.2...v1.7.0) (2022-05-30)
 
 
