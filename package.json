@@ -1,9 +1,9 @@
 {
-  "name": "abdallahbedir-design-system",
+  "name": "abdallahbedir-lib",
   "license": "MIT",
   "version": "0.0.6",
   "private": false,
-  "description": "Design system react library",
+  "description": "abdallahbedir library",
   "author": "Abdallah Bedir",
   "homepage": "https://github.com/AbdallahBedir/design-system.git",
   "bugs": {
