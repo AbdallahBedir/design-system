@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.7.0](https://github.com/AbdallahBedir/design-system/compare/v1.6.2...v1.7.0) (2022-05-30)
+
+
+### Features
+
+* add github plugin ([8cdf4ce](https://github.com/AbdallahBedir/design-system/commit/8cdf4ce346889cf0b958adc3423b2453db1cdc98))
+
 ### [1.6.2](https://github.com/AbdallahBedir/design-system/compare/v1.6.1...v1.6.2) (2022-05-30)
 
 
