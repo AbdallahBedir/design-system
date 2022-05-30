@@ -4,6 +4,7 @@ on: push
 
 jobs:
   test-lint-build:
+    name: 'test, lint & build'
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
@@ -27,6 +28,7 @@ jobs:
         run: yarn build
 
   publish:
+    name: 'Publish'
     if: ${{ github.ref == 'refs/heads/develop' }}
     needs: test-lint-build
     runs-on: ubuntu-latest
