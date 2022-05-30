@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.4.0](https://github.com/AbdallahBedir/design-system/compare/v1.3.0...v1.4.0) (2022-05-30)
+
+
+### Features
+
+* remove pkgRoot ([e0372db](https://github.com/AbdallahBedir/design-system/commit/e0372dbd69cbe514fb708e85d3beda78534771df))
+
 ## [1.3.0](https://github.com/AbdallahBedir/design-system/compare/v1.2.1...v1.3.0) (2022-05-30)
 
 
