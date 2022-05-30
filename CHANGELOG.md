@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.6.0](https://github.com/AbdallahBedir/design-system/compare/v1.5.0...v1.6.0) (2022-05-30)
+
+
+### Features
+
+* remove dist from gitignore ([67eddd6](https://github.com/AbdallahBedir/design-system/commit/67eddd6d18c8769479f69e7e5551af406f37bef0))
+
 ## [1.5.0](https://github.com/AbdallahBedir/design-system/compare/v1.4.0...v1.5.0) (2022-05-30)
 
 
