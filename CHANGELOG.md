@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.3.0](https://github.com/AbdallahBedir/design-system/compare/v1.2.1...v1.3.0) (2022-05-30)
+
+
+### Features
+
+* delete Button component ([89a34c9](https://github.com/AbdallahBedir/design-system/commit/89a34c90fa5447e7075bc27bc3d2a249cef6aed5))
+
 ### [1.2.1](https://github.com/AbdallahBedir/design-system/compare/v1.2.0...v1.2.1) (2022-05-30)
 
 
