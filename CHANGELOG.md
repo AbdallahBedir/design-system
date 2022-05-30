@@ -1,5 +1,19 @@
 # Changelog
 
+## [1.2.0](https://github.com/AbdallahBedir/design-system/compare/v1.1.0...v1.2.0) (2022-05-30)
+
+
+### Features
+
+* add job name ([aa7584b](https://github.com/AbdallahBedir/design-system/commit/aa7584b7c62592c682e6fa275d83dbc99fdae5fa))
+* remove tagFormat from release config ([3701e1f](https://github.com/AbdallahBedir/design-system/commit/3701e1fc8c7208fe3310c6e6b7fe29ca77ac5471))
+* update release config ([a51211c](https://github.com/AbdallahBedir/design-system/commit/a51211cd112ae0c67013c868dbf239b79c2a3dd6))
+
+
+### Bug Fixes
+
+* update package json description ([667ffe0](https://github.com/AbdallahBedir/design-system/commit/667ffe036cf677e2e80a1ec1c127b0102a3ae09f))
+
 ## [1.2.0](https://github.com/AbdallahBedir/design-system/compare/v1.1.0🚀...v1.2.0🚀) (2022-05-30)
 
 
