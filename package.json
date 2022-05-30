@@ -38,9 +38,7 @@
   "module": "./dist/index.esm.js",
   "types": "./dist/index.d.ts",
   "files": [
-    "/dist",
-    "/dist/*",
-    "/dist/**/*"
+    "/dist"
   ],
   "dependencies": {
     "classnames": "^2.2.6"
