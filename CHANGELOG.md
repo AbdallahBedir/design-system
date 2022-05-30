@@ -1,5 +1,12 @@
 # Changelog
 
+### [1.2.1](https://github.com/AbdallahBedir/design-system/compare/v1.2.0...v1.2.1) (2022-05-30)
+
+
+### Bug Fixes
+
+* exclude dist in tsconfig ([1659a0d](https://github.com/AbdallahBedir/design-system/commit/1659a0d1fed489bb5cb45276989df4328b5330d3))
+
 ## [1.2.0](https://github.com/AbdallahBedir/design-system/compare/v1.1.0...v1.2.0) (2022-05-30)
 
 
