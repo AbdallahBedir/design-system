@@ -1,12 +1,5 @@
 # Changelog
 
-## [1.5.0](https://github.com/AbdallahBedir/design-system/compare/v1.4.0...v1.5.0) (2022-05-30)
-
-
-### Features
-
-* add assets ([ba109ea](https://github.com/AbdallahBedir/design-system/commit/ba109ea59fb78a50abccd63e08c531670c1b16f1))
-
 ## [1.4.0](https://github.com/AbdallahBedir/design-system/compare/v1.3.0...v1.4.0) (2022-05-30)
 
 
