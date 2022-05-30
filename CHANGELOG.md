@@ -1,5 +1,12 @@
 # Changelog
 
+### [1.6.2](https://github.com/AbdallahBedir/design-system/compare/v1.6.1...v1.6.2) (2022-05-30)
+
+
+### Bug Fixes
+
+* conflicts after revert ([53516c3](https://github.com/AbdallahBedir/design-system/commit/53516c3886b8593000c994e8923bbf5db6f31409))
+
 ### [1.6.1](https://github.com/AbdallahBedir/design-system/compare/v1.6.0...v1.6.1) (2022-05-30)
 
 
