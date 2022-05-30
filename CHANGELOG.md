@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.0](https://github.com/AbdallahBedir/design-system/compare/v1.0.0...v1.1.0) (2022-05-30)
+
+
+### Features
+
+* add @semantic-release/github plugin ([b8b1d03](https://github.com/AbdallahBedir/design-system/commit/b8b1d031b6fc798eb72bc86b6f272f7103df3066))
+
 ## 1.0.0 (2022-05-29)
 
 
