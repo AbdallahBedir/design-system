@@ -6,6 +6,10 @@
   "description": "abdallahbedir library pckg",
   "author": "Abdallah Bedir",
   "homepage": "https://github.com/AbdallahBedir/design-system.git",
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/",
+    "tag": "latest"
+  },
   "bugs": {
     "url": "https://github.com/AbdallahBedir/design-system.git/issues"
   },

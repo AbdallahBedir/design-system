@@ -24,12 +24,17 @@ module.exports = {
         changelogTitle: '# Changelog',
       },
     ],
-    ['@semantic-release/npm'],
+    [
+      '@semantic-release/npm',
+      {
+        pkgRoot: 'dist',
+      },
+    ],
     [
       '@semantic-release/git',
       {
         message: 'chore(release): ${nextRelease.version} [skip ci]',
-        assets: ['CHANGELOG.md'],
+        assets: ['CHANGELOG.md', 'dist/**/*.{js,css,d.ts}', 'docs', 'package.json'],
       },
     ],
   ],
