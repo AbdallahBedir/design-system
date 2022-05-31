@@ -13,12 +13,12 @@ export default {
   external: [...Object.keys(pkg.dependencies || {}), ...Object.keys(pkg.peerDependencies || {})],
   output: [
     {
-      file: pkg.module,
+      file: `./dist/${pkg.module}`,
       format: 'es',
       sourcemap: true,
     },
     {
-      file: pkg.main,
+      file: `./dist/${pkg.main}`,
       format: 'cjs',
       sourcemap: true,
     },
@@ -55,21 +55,21 @@ export default {
         comments: false,
       },
     }),
-    // copy({
-    //   targets: [
-    //     { src: 'LICENSE', dest: 'dist' },
-    //     { src: 'README.md', dest: 'dist' },
-    //     {
-    //       src: 'package.json',
-    //       dest: 'dist',
-    //       transform: (content) => {
-    //         const { scripts, devDependencies, husky, release, engines, ...keep } = JSON.parse(
-    //           content.toString()
-    //         );
-    //         return JSON.stringify(keep, null, 2);
-    //       },
-    //     },
-    //   ],
-    // }),
+    copy({
+      targets: [
+        { src: 'LICENSE', dest: 'dist' },
+        { src: 'README.md', dest: 'dist' },
+        {
+          src: 'package.json',
+          dest: 'dist',
+          transform: (content) => {
+            const { scripts, devDependencies, husky, release, engines, ...keep } = JSON.parse(
+              content.toString()
+            );
+            return JSON.stringify(keep, null, 2);
+          },
+        },
+      ],
+    }),
   ],
 };

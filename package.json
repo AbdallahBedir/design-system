@@ -34,12 +34,9 @@
     "component:new": "hygen component with-prompt",
     "publish": "npx semantic-release --no-ci"
   },
-  "main": "dist/index.js",
-  "module": "dist/index.esm.js",
-  "types": "dist/index.d.ts",
-  "files": [
-    "dist"
-  ],
+  "main": "index.js",
+  "module": "index.esm.js",
+  "types": "index.d.ts",
   "dependencies": {
     "classnames": "^2.2.6"
   },
