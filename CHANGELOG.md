@@ -1,5 +1,17 @@
 # Changelog
 
+## [1.9.0](https://github.com/AbdallahBedir/design-system/compare/v1.8.0...v1.9.0) (2022-05-31)
+
+
+### Features
+
+* chkhd ([ad4dd18](https://github.com/AbdallahBedir/design-system/commit/ad4dd18281f9ae444d5cea1172d40ef48ddfa20a))
+
+
+### Bug Fixes
+
+* hot fixes ([8025f3e](https://github.com/AbdallahBedir/design-system/commit/8025f3e8647a644828bb56865f2f6329316b5004))
+
 ## [1.8.0](https://github.com/AbdallahBedir/design-system/compare/v1.7.0...v1.8.0) (2022-05-30)
 
 
