@@ -1,9 +1,10 @@
-name: CI
+name: Release
 
 on: push
 
 jobs:
   test-lint-build:
+    name: 'Test, lint & build'
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
@@ -27,16 +28,17 @@ jobs:
         run: yarn build
 
   publish:
-    if: ${{ github.ref == 'refs/heads/master' }}
+    name: 'Publish'
+    if: ${{ github.ref == 'refs/heads/develop' }}
     needs: test-lint-build
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
         with:
           persist-credentials: false
-      - uses: actions/setup-node@v1
+      - uses: actions/setup-node@v2
         with:
-          node-version: 12
+          node-version: 'lts/*'
       - name: Restore node modules cache
         uses: actions/cache@v2
         env:
@@ -49,7 +51,7 @@ jobs:
       - name: Build
         run: yarn build
       - name: Release
-        env: 
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
-          GITHUB_TOKEN: ${{ secrets.SEMANTIC_RELEASE_TOKEN }}
         run: npx semantic-release

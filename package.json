@@ -1,17 +1,21 @@
 {
-  "name": "sixfootsixdesigns-react-library-boilerplate",
+  "name": "abdallahbedir-lib",
   "license": "MIT",
-  "version": "0.0.0",
+  "version": "0.0.6",
   "private": false,
-  "description": "React Typescript Library Boilerplate",
-  "author": "James Olson",
-  "homepage": "https://github.com/sixfootsixdesigns/React-Library-Boilerplate",
+  "description": "abdallahbedir library pckg",
+  "author": "Abdallah Bedir",
+  "homepage": "https://github.com/AbdallahBedir/design-system.git",
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/",
+    "tag": "latest"
+  },
   "bugs": {
-    "url": "https://github.com/sixfootsixdesigns/React-Library-Boilerplate/issues"
+    "url": "https://github.com/AbdallahBedir/design-system.git/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/sixfootsixdesigns/React-Library-Boilerplate.git"
+    "url": "git+https://github.com/AbdallahBedir/design-system.git"
   },
   "scripts": {
     "build": "yarn clean; rollup -c",
@@ -19,7 +23,7 @@
     "dev": "yarn storybook",
     "format": "prettier --write \"src/**/*.{ts,tsx,json,js,jsx}\"",
     "format:check": "prettier --list-different \"src/**/*.{ts,tsx,json,js,jsx}\"",
-    "lint": "yarn lint:script && yarn lint:style",
+    "lint": "yarn lint:script",
     "lint:script": "eslint ./src --ext .js,.jsx,.ts,.tsx",
     "lint:style": "stylelint ./src",
     "storybook": "start-storybook -p 9001 -s ./src/assets -c .storybook",
@@ -37,8 +41,9 @@
     "classnames": "^2.2.6"
   },
   "peerDependencies": {
-    "react": "^16.8.0",
-    "react-dom": "^16.8.0"
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "styled-components": "^5.3.0"
   },
   "devDependencies": {
     "@babel/core": "^7.12.7",
@@ -56,11 +61,13 @@
     "@types/classnames": "^2.2.11",
     "@types/jest": "^26.0.15",
     "@types/node": "^12",
-    "@types/react": "^16.9.10",
-    "@types/react-dom": "^16.9.10",
+    "@types/react": "^17.0.17",
+    "@types/react-dom": "^17.0.9",
+    "@types/styled-components": "^5.1.12",
     "@typescript-eslint/eslint-plugin": "^4.8.1",
     "@typescript-eslint/parser": "^4.8.1",
     "babel-loader": "^8.2.1",
+    "babel-plugin-styled-components": "^1.10.5",
     "classnames": "^2.2.6",
     "conventional-changelog-conventionalcommits": "^4.4.0",
     "css-loader": "^5.0.1",
@@ -73,13 +80,15 @@
     "hygen": "^6.0.4",
     "identity-obj-proxy": "^3.0.0",
     "jest": "^26.6.3",
-    "node-sass": "^5.0.0",
+    "node-sass": "^7.0.1",
     "prettier": "^2.2.0",
-    "react": "^16.14.0",
-    "react-dom": "^16.14.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
     "rimraf": "^3.0.2",
     "rollup": "^2.33.3",
+    "rollup-plugin-babel": "^4.4.0",
     "rollup-plugin-copy": "^3.3.0",
+    "rollup-plugin-peer-deps-external": "^2.2.4",
     "rollup-plugin-postcss": "^3.1.8",
     "rollup-plugin-terser": "7.0.2",
     "rollup-plugin-typescript2": "^0.29.0",
@@ -91,7 +100,7 @@
     "stylelint-scss": "^3.18.0",
     "ts-jest": "^26.4.4",
     "ts-loader": "^8.0.11",
-    "typescript": "^3.8.3",
+    "typescript": "^4.0.2",
     "webpack": "^4.42.1"
   },
   "engines": {
@@ -103,50 +112,7 @@
       "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
     }
   },
-  "release": {
-    "branches": [
-      "master",
-      "next"
-    ],
-    "preset": "conventionalcommits",
-    "plugins": [
-      [
-        "@semantic-release/commit-analyzer",
-        {
-          "releaseRules": [
-            {
-              "type": "revert",
-              "release": "patch"
-            },
-            {
-              "type": "build",
-              "release": "patch"
-            }
-          ]
-        }
-      ],
-      "@semantic-release/release-notes-generator",
-      [
-        "@semantic-release/changelog",
-        {
-          "changelogTitle": "# Changelog"
-        }
-      ],
-      [
-        "@semantic-release/npm",
-        {
-          "pkgRoot": "dist"
-        }
-      ],
-      [
-        "@semantic-release/git",
-        {
-          "message": "chore(release): ${nextRelease.version} [skip ci]",
-          "assets": [
-            "CHANGELOG.md"
-          ]
-        }
-      ]
-    ]
+  "resolutions": {
+    "styled-components": "^5"
   }
 }
