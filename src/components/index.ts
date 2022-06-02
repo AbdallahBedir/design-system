@@ -3,3 +3,5 @@
 export * from './Example';
 export * from './Button';
 export * from './Spinner';
+export * from './InputField';
+export * from './Searchbox';
