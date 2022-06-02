@@ -28,6 +28,7 @@ export default {
     resolve(),
     commonjs(),
     postcss(),
+    svgr(),
     typescript({
       typescript: ts,
       tsconfig: 'tsconfig.json',

@@ -1,0 +1,12 @@
+.Example {
+  border: none;
+  background: gray;
+}
+
+.Example.Example--active {
+  background-color: darkgray;
+}
+
+.Example.Example--disabled {
+  opacity: 0.4;
+}
