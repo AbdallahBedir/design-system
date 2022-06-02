@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.10.0](https://github.com/AbdallahBedir/design-system/compare/v1.9.1...v1.10.0) (2022-06-02)
+
+
+### Features
+
+* publish to github packages ([38606a7](https://github.com/AbdallahBedir/design-system/commit/38606a7a8e4b0bfb23db8402de6e65df0b264adc))
+
 ### [1.9.1](https://github.com/AbdallahBedir/design-system/compare/v1.9.0...v1.9.1) (2022-05-31)
 
 
