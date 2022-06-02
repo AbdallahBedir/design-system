@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.12.0](https://github.com/AbdallahBedir/design-system/compare/v1.11.0...v1.12.0) (2022-06-02)
+
+
+### Features
+
+* add .npmrc ([4633846](https://github.com/AbdallahBedir/design-system/commit/46338461f8fb1ff49c2aaece4c3f058ee0ea925b))
+
 ## [1.11.0](https://github.com/AbdallahBedir/design-system/compare/v1.10.0...v1.11.0) (2022-06-02)
 
 
