@@ -2,7 +2,7 @@
   "name": "@abdallahbedir/design-system",
   "license": "MIT",
   "version": "0.0.6",
-  "private": true,
+  "private": false,
   "description": "abdallahbedir library pckg",
   "author": "Abdallah Bedir",
   "homepage": "https://github.com/AbdallahBedir/design-system.git",

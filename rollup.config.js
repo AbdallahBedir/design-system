@@ -26,7 +26,9 @@ export default {
   ],
   plugins: [
     peerDepsExternal(),
-    resolve(),
+    resolve({
+      customResolveOptions: { moduleDirectory: 'src' },
+    }),
     commonjs(),
     postcss(),
     svgr(),
