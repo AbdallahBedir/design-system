@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.15.0](https://github.com/AbdallahBedir/design-system/compare/v1.14.0...v1.15.0) (2022-06-03)
+
+
+### Features
+
+* make the library private ([d8bed65](https://github.com/AbdallahBedir/design-system/commit/d8bed65e41be533813afeab601f6bf55a7218d4c))
+
 ## [1.14.0](https://github.com/AbdallahBedir/design-system/compare/v1.13.0...v1.14.0) (2022-06-03)
 
 
