@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.16.0](https://github.com/AbdallahBedir/design-system/compare/v1.15.0...v1.16.0) (2022-06-03)
+
+
+### Features
+
+* add moduleDirectory to resolve rollup module ([a5a32e0](https://github.com/AbdallahBedir/design-system/commit/a5a32e03eae9a9bd9851076f07252459a0764a70))
+
 ## [1.15.0](https://github.com/AbdallahBedir/design-system/compare/v1.14.0...v1.15.0) (2022-06-03)
 
 
