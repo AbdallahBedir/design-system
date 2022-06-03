@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.14.0](https://github.com/AbdallahBedir/design-system/compare/v1.13.0...v1.14.0) (2022-06-03)
+
+
+### Features
+
+* add token to .npmrc ([b5fffc9](https://github.com/AbdallahBedir/design-system/commit/b5fffc95218c340d533ca06410903c057d18ec8a))
+
 ## [1.13.0](https://github.com/AbdallahBedir/design-system/compare/v1.12.0...v1.13.0) (2022-06-03)
 
 
