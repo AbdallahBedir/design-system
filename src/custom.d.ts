@@ -4,8 +4,14 @@ declare module '*.png' {
 }
 
 declare module '*.svg' {
-  const content: any;
-  export default content;
+  import React from 'react';
+
+  export const ReactComponent: React.FunctionComponent<
+    React.SVGProps<HTMLImageElement> & { title?: string } & any
+  >;
+
+  const src: string;
+  export default ReactComponent;
 }
 
 declare module '*.bmp' {
