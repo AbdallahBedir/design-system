@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.18.0](https://github.com/AbdallahBedir/design-system/compare/v1.17.0...v1.18.0) (2022-06-04)
+
+
+### Features
+
+* add checkbox variations ([1cc885a](https://github.com/AbdallahBedir/design-system/commit/1cc885a06d2c1f187f357a725275171b508823d6))
+
 ## [1.17.0](https://github.com/AbdallahBedir/design-system/compare/v1.16.0...v1.17.0) (2022-06-03)
 
 
