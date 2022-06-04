@@ -1,0 +1,27 @@
+# Workflow name (Storybook publish)
+name: 'Chromatic (Storybook) Publish'
+
+# Event for the workflow
+on:
+  push:
+    branches:
+      - staging
+    paths:
+      - 'src/components/**/*.stories.tsx'
+
+jobs:
+  test:
+    # Operating System
+    runs-on: ubuntu-latest
+    # Job steps
+    steps:
+      - uses: actions/checkout@v1
+      - name: Install dependencies
+        run: yarn install
+        #👇 Adds Chromatic as a step in the workflow
+      - uses: chromaui/action@v1
+        # Options required for Chromatic's GitHub Action
+        with:
+          #👇 Chromatic projectToken,
+          projectToken: ${{ secrets.CHROMATIC_PROJECT_TOKEN }}
+          token: ${{ secrets.GITHUB_TOKEN }}
