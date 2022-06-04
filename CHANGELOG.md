@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.19.0](https://github.com/AbdallahBedir/design-system/compare/v1.18.0...v1.19.0) (2022-06-04)
+
+
+### Features
+
+* return checkbox ([a00d644](https://github.com/AbdallahBedir/design-system/commit/a00d644096264027956e416104f8c72561825c5b))
+
 ## [1.18.0](https://github.com/AbdallahBedir/design-system/compare/v1.17.0...v1.18.0) (2022-06-04)
 
 
