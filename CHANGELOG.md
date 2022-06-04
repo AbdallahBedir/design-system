@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.20.0](https://github.com/AbdallahBedir/design-system/compare/v1.19.0...v1.20.0) (2022-06-04)
+
+
+### Features
+
+* add chromatic workflow ([d07a28a](https://github.com/AbdallahBedir/design-system/commit/d07a28ac13de7f8310d9ac8494dd6c3f0c6ddbf7))
+
 ## [1.19.0](https://github.com/AbdallahBedir/design-system/compare/v1.18.0...v1.19.0) (2022-06-04)
 
 
