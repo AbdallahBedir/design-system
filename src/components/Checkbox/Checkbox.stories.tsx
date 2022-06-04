@@ -10,6 +10,7 @@ export default {
   component: Checkbox,
   args: {
     children: 'Do you accept the conditions?',
+    readOnly: true,
   },
 } as ComponentMeta<typeof Checkbox>;
 
