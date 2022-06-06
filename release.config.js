@@ -1,5 +1,5 @@
 module.exports = {
-  branches: ['develop'],
+  branches: ['staging'],
   preset: 'conventionalcommits',
   plugins: [
     [
@@ -28,6 +28,7 @@ module.exports = {
       '@semantic-release/npm',
       {
         pkgRoot: 'dist',
+        npmPublish: true,
       },
     ],
     ['@semantic-release/github'],

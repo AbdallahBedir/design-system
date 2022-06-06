@@ -1,5 +1,47 @@
 # Changelog
 
+## [1.15.0](https://github.com/AbdallahBedir/design-system/compare/v1.14.0...v1.15.0) (2022-06-03)
+
+
+### Features
+
+* make the library private ([d8bed65](https://github.com/AbdallahBedir/design-system/commit/d8bed65e41be533813afeab601f6bf55a7218d4c))
+
+## [1.14.0](https://github.com/AbdallahBedir/design-system/compare/v1.13.0...v1.14.0) (2022-06-03)
+
+
+### Features
+
+* add token to .npmrc ([b5fffc9](https://github.com/AbdallahBedir/design-system/commit/b5fffc95218c340d533ca06410903c057d18ec8a))
+
+## [1.13.0](https://github.com/AbdallahBedir/design-system/compare/v1.12.0...v1.13.0) (2022-06-03)
+
+
+### Features
+
+* add .npmrc ([6850a65](https://github.com/AbdallahBedir/design-system/commit/6850a659e79889333ceb533f9127690d11702ffa))
+
+## [1.12.0](https://github.com/AbdallahBedir/design-system/compare/v1.11.0...v1.12.0) (2022-06-02)
+
+
+### Features
+
+* add .npmrc ([4633846](https://github.com/AbdallahBedir/design-system/commit/46338461f8fb1ff49c2aaece4c3f058ee0ea925b))
+
+## [1.11.0](https://github.com/AbdallahBedir/design-system/compare/v1.10.0...v1.11.0) (2022-06-02)
+
+
+### Features
+
+* publish to github packages ([8620636](https://github.com/AbdallahBedir/design-system/commit/8620636a132a2d1517573791ce74eb7ffdb7df77))
+
+## [1.10.0](https://github.com/AbdallahBedir/design-system/compare/v1.9.1...v1.10.0) (2022-06-02)
+
+
+### Features
+
+* publish to github packages ([38606a7](https://github.com/AbdallahBedir/design-system/commit/38606a7a8e4b0bfb23db8402de6e65df0b264adc))
+
 ### [1.9.1](https://github.com/AbdallahBedir/design-system/compare/v1.9.0...v1.9.1) (2022-05-31)
 
 

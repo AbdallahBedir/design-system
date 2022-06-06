@@ -4,6 +4,7 @@ import postcss from 'rollup-plugin-postcss';
 import commonjs from '@rollup/plugin-commonjs';
 import pkg from './package.json';
 import resolve from '@rollup/plugin-node-resolve';
+import svgr from '@svgr/rollup';
 import copy from 'rollup-plugin-copy';
 import ts from 'typescript';
 import peerDepsExternal from 'rollup-plugin-peer-deps-external';
@@ -28,6 +29,7 @@ export default {
     resolve(),
     commonjs(),
     postcss(),
+    svgr(),
     typescript({
       typescript: ts,
       tsconfig: 'tsconfig.json',
