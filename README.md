@@ -70,6 +70,12 @@ export \* from './SomeOtherComponent';
 
 You can develop your new component using storybook as your playground. Once you have added the `.stories.tsx` file for you new component, you can run `yarn storybook` to start the service.
 
+## Troubleshooting
+
+- Default export of the module has or is using private name 'CheckboxProps'.ts
+
+  **SoL** : prefix 'CheckboxProps' with export keyword
+
 ## Tests
 
 ```
