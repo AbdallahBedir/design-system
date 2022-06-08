@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.22.0](https://github.com/AbdallahBedir/design-system/compare/v1.21.0...v1.22.0) (2022-06-08)
+
+
+### Features
+
+* update README ([7d7af52](https://github.com/AbdallahBedir/design-system/commit/7d7af528ef02c080ff24cebf84931cbac4cbbdf6))
+
 ## [1.21.0](https://github.com/AbdallahBedir/design-system/compare/v1.20.0...v1.21.0) (2022-06-04)
 
 
