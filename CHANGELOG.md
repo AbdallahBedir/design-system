@@ -1,5 +1,21 @@
 # Changelog
 
+## [1.24.0](https://github.com/AbdallahBedir/design-system/compare/v1.23.0...v1.24.0) (2022-06-10)
+
+
+### Features
+
+* add dist ([ee07b2a](https://github.com/AbdallahBedir/design-system/commit/ee07b2a0e396eef53942abb01f4115f53344f1d2))
+* fix ss ([5330530](https://github.com/AbdallahBedir/design-system/commit/53305307b2cd7b107f0a6ad47a4e7bce64fd4ce4))
+* push to npm ([81d148b](https://github.com/AbdallahBedir/design-system/commit/81d148ba1e065c489d8b133395ceceac0ae84d32))
+
+
+### Bug Fixes
+
+* shit ([760776d](https://github.com/AbdallahBedir/design-system/commit/760776d5232d2d1edda393189764e8bfc94ebd76))
+* shit ([60cfe6b](https://github.com/AbdallahBedir/design-system/commit/60cfe6b899189dc9df71fc29da91bff3db9e65f9))
+* shit ([ee6588a](https://github.com/AbdallahBedir/design-system/commit/ee6588a2515a92fd96b078113d70e643a9dfa701))
+
 ### Bug Fixes
 
 - revert workmotion scope ([772744a](https://github.com/workmotion/design-system/commit/772744a2b9d5a4d768d4e5b4c9c37af76ab40422))
