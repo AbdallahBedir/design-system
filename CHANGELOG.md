@@ -1,7 +1,3 @@
-# Changelog
-
-### [1.3.1](https://github.com/workmotion/design-system/compare/v1.3.0...v1.3.1) (2022-06-09)
-
 
 ### Bug Fixes
 
