@@ -1,5 +1,5 @@
 {
-  "name": "@abdallahbedir/design-system",
+  "name": "@abdallahbedir/ds",
   "license": "MIT",
   "version": "0.0.6",
   "private": false,
@@ -128,4 +128,3 @@
     "styled-components": "^5"
   }
 }
-
