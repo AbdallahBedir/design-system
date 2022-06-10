@@ -8,7 +8,7 @@ This react library boilerplate uses the following:
 - [ESLint](https://eslint.org/)
 - [StyleLint](https://stylelint.io/)
 - [Storybook](https://storybook.js.org/)
-- [SCSS](https://sass-lang.com/)
+- [Styled Components](https://styled-components.com/)
 - [Jest](https://jestjs.io/)
 - [React Testing Library](https://testing-library.com/docs/react-testing-library/intro/)
 - [Semantic Release](https://semantic-release.gitbook.io/)
@@ -17,9 +17,10 @@ This react library boilerplate uses the following:
 
 ## Setup
 
-1. Edit the `package.json` file. Set you app's name, description, version, author, homepage, bugs, and repository fields with the correct information.
 1. Run `yarn` to add all the project's dependencies.
-1. You package.json file version should always be 0.0.0 since Semantic Release will automatically set this upon publishing.
+2. Run `yarn storybook`
+3. Create a new branch form `main` and after completing the work make sure to run `yarn build` to make sure that there are no errors are thrown
+4. Create the PR to be merged into `main`, after merging it, the package will be published automatically.
 
 ## Basic Folder Structure
 
@@ -27,12 +28,11 @@ This react library boilerplate uses the following:
 ├── .storybook
 ├── src
 │   ├── components
-|   |   ├── Example
+|   |   ├── Button
 |   |   |   ├── __tests__
-|   |   |   |   ├── Example.test.tsx
-|   |   |   ├── example.scss
-|   |   |   ├── Example.stories.tsx
-|   |   |   ├── Example.tsx
+|   |   |   |   ├── Button.test.tsx
+|   |   |   ├── Button.stories.tsx
+|   |   |   ├── Button.tsx
 |   |   |   ├── index.ts
 |   |   ├── index.ts
 |   ├── index.ts
@@ -43,32 +43,19 @@ This react library boilerplate uses the following:
 
 ## Add a new component
 
-- You can automatically create a new component using the `yarn component:new` command.
-- Or, you can manually add the new component directory in the `src/components` directory following this folder structure
+1. Add new folder (i.e. Button) inside components directory with those files inside `index.ts, Button.tsx, Button stories.tsx`.
+2. Inside `components/index.ts` add this line `export * from ./Button`
 
-```
-├── MyComponent
-|   ├── __tests__
-|   |   ├── MyComponent.test.tsx
-|   ├── MyComponent.scss
-|   ├── MyComponent.stories.tsx
-|   ├── MyComponent.tsx
-|   ├── index.ts
+## Github Actions
 
-```
+- This project contains a github action workflow called `release.yaml`. This workflow runs a job that will test, lint, and build the code. If the code passes and you are on the `main` branch it will also run the publish job to send the new version off to npm.
 
-Once you have created your new component make sure you have exported it in the `src/components/index.ts` file. Doing so allows the component to be compiled into the final bundle using rollup.
+- If you have changed any of stories files `src/components/**/*.stories.tsx`, `chromatic.yml` will run to deploy the storybook to [chromatic](https://www.chromatic.com/)
 
-```
-// src/components/index.ts
-export \* from './MyComponent';
-export \* from './SomeOtherComponent';
+## Publishing your Library
 
-```
-
-> You can skip all of this and use the built in component generator. The template for the component is in `_templates/component/with-prompt`. Simply run the following command to automatically create your new component. It will prompt you for the component name and then build out all the files and correct exports.`yarn component:new`
-
-You can develop your new component using storybook as your playground. Once you have added the `.stories.tsx` file for you new component, you can run `yarn storybook` to start the service.
+- Run `yarn build` before merging your PR into main to make sure there are no errors thrown
+- Once your PR is merged into `main` branch, you can check the new version in [workmotion design system github package ](https://github.com/workmotion/design-system/packages/1463755)
 
 ## Troubleshooting
 
@@ -141,16 +128,6 @@ $ yarn build
 ```
 
 The build output will go into the `dist` directory
-
-## Github Actions
-
-This project contains a github action workflow called `ci.yaml`. This workflow runs a job that will test, lint, and build the code. If the code passes and you are on the `master` branch it will also run the publish job to send the new version off to npm.
-
-## Publishing your Library on NPM
-
-Once you have created an account on NPM create a publish key and add it to your github secrets as `NPM_TOKEN`. You will also need to create another secret called `SEMANTIC_RELEASE_TOKEN`. This token should be a personal access token that has the following scopes: `repo(all)`. [Semantic Release](https://semantic-release.gitbook.io/) will take care of the publishing and versioning for you via the `.github/workflows/ci.yaml` `Publish` job. In addition to publishing to NPM it will also create a new tag and release with commit messages in the repo.
-
-> Note: You will need to update the package.json name property with the correct name your library will be using on npm.
 
 ## Committing Code Changes
 

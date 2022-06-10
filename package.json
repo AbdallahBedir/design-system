@@ -49,8 +49,10 @@
   },
   "devDependencies": {
     "@babel/core": "^7.12.7",
+    "@babel/preset-env": "^7.18.2",
     "@commitlint/cli": "^11.0.0",
     "@commitlint/config-conventional": "^11.0.0",
+    "@rollup/plugin-babel": "^5.3.1",
     "@rollup/plugin-commonjs": "^16.0.0",
     "@rollup/plugin-node-resolve": "^10.0.0",
     "@semantic-release/changelog": "^5.0.1",
@@ -126,3 +128,4 @@
     "styled-components": "^5"
   }
 }
+

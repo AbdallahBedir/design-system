@@ -6,11 +6,21 @@ import { Colors } from 'colors';
 
 import { InputControlBase } from './types';
 import HidePasswordIcon from 'assets/hide-password-icon.svg';
-import { FieldLabel } from './Label';
 import ViewPasswordIcon from 'assets/view-password-icon.svg';
+import { FieldLabel } from './Label';
 
 export interface InputProps extends InputHTMLAttributes<HTMLInputElement> {
-  type?: string;
+  type?:
+    | 'text'
+    | 'number'
+    | 'currency'
+    | 'email'
+    | 'password'
+    | 'dateOnly'
+    | 'timeOnly'
+    | 'dateTime'
+    | 'button'
+    | 'submit';
   placeholder?: string;
   hasError?: boolean;
   inputAddon?: string;
@@ -26,13 +36,13 @@ const defaultProps: InputProps = {
 const StyledInput = styled.input<InputProps>`
   height: 2.5rem;
   background: #fff;
-  border: 1px solid #acb9c6;
+  border: 1px solid ${Colors.field_border_placeholder};
   border-radius: 5px;
   flex: 1;
   width: 100%;
   padding: 12px 16px;
   outline: 0;
-  color: #00234b;
+  color: ${Colors.main_navy};
   font-size: 0.875rem;
   :hover,
   :focus,
@@ -43,9 +53,9 @@ const StyledInput = styled.input<InputProps>`
     :hover,
     :focus,
     :active {
-      border-color: #ff1744;
+      border-color: ${Colors.red_error};
     }
-    border-color: #ff1744;
+    border-color: ${Colors.red_error};
   }
   ::placeholder {
     color: #9da4be;
@@ -65,13 +75,13 @@ const StyledInput = styled.input<InputProps>`
 
 const StyledPasswordInputwrapper = styled.div`
   height: 2.5rem;
-  background: #fff;
-  border: 1px solid #acb9c6;
+  background: ${Colors.white};
+  border: 1px solid ${Colors.field_border_placeholder};
   border-radius: 5px;
   flex: 1;
   padding: 0;
   outline: 0;
-  color: #5a6487;
+  color: ${Colors.grey6};
   font-size: 14px;
   display: flex;
   align-items: center;
@@ -84,9 +94,9 @@ const StyledPasswordInputwrapper = styled.div`
     :hover,
     :focus,
     :active {
-      border-color: #ff1744;
+      border-color: ${Colors.red_error};
     }
-    border-color: #ff1744;
+    border-color: ${Colors.red_error};
   }
   ::placeholder {
     color: #9da4be;

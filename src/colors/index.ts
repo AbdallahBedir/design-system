@@ -33,6 +33,7 @@ export const Colors = {
   grey_btn_bg: '#EBEBED',
   grey_btn_text: '#506782',
   grey_btn_hover: '#d4d4d5',
+  red_error: '#ff1744',
   delete_button: '#FF4D4D',
   output_educate: '#EBFAF3',
   cornflower_blue: '#1B94EC',
