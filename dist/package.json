@@ -1,0 +1,35 @@
+{
+  "name": "@abdallahbedir/design-system",
+  "license": "MIT",
+  "version": "0.0.6",
+  "private": false,
+  "description": "abdallahbedir library pckg",
+  "author": "Abdallah Bedir",
+  "homepage": "https://github.com/AbdallahBedir/design-system.git",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/@AbdallahBedir",
+    "tag": "latest"
+  },
+  "bugs": {
+    "url": "https://github.com/AbdallahBedir/design-system.git/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AbdallahBedir/design-system.git"
+  },
+  "main": "index.js",
+  "module": "index.esm.js",
+  "types": "index.d.ts",
+  "dependencies": {
+    "classnames": "^2.2.6",
+    "use-debounce": "^8.0.1"
+  },
+  "peerDependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "styled-components": "^5.3.0"
+  },
+  "resolutions": {
+    "styled-components": "^5"
+  }
+}
