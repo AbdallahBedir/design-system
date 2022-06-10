@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.24.0](https://github.com/AbdallahBedir/design-system/compare/v1.23.0...v1.24.0) (2022-06-10)
+
+
+### Features
+
+* add dist ([ee07b2a](https://github.com/AbdallahBedir/design-system/commit/ee07b2a0e396eef53942abb01f4115f53344f1d2))
+
 ## [1.23.0](https://github.com/AbdallahBedir/design-system/compare/v1.22.0...v1.23.0) (2022-06-10)
 
 
