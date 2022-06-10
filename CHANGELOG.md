@@ -2,13 +2,6 @@
 
 ## [1.23.0](https://github.com/AbdallahBedir/design-system/compare/v1.22.0...v1.23.0) (2022-06-10)
 
-### Features
-
-- add main ([17b4131](https://github.com/AbdallahBedir/design-system/commit/17b4131f0855e28e4304e5518ed68ef856b4b90c))
-- add main package json ([e2dd55c](https://github.com/AbdallahBedir/design-system/commit/e2dd55cbbe6a15bff7d1f8dfc9c3dcff7f4f7a68))
-- add main package json ([4ecf8b4](https://github.com/AbdallahBedir/design-system/commit/4ecf8b4e9542393e530777dc2865ba7ee7ebedc6))
-- push to npm ([81d148b](https://github.com/AbdallahBedir/design-system/commit/81d148ba1e065c489d8b133395ceceac0ae84d32))
-
 ### Bug Fixes
 
 - revert workmotion scope ([772744a](https://github.com/workmotion/design-system/commit/772744a2b9d5a4d768d4e5b4c9c37af76ab40422))
