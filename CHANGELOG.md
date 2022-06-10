@@ -9,6 +9,20 @@
 * fix ss ([5330530](https://github.com/AbdallahBedir/design-system/commit/53305307b2cd7b107f0a6ad47a4e7bce64fd4ce4))
 * push to npm ([81d148b](https://github.com/AbdallahBedir/design-system/commit/81d148ba1e065c489d8b133395ceceac0ae84d32))
 
+
+### Bug Fixes
+
+* shit ([ee6588a](https://github.com/AbdallahBedir/design-system/commit/ee6588a2515a92fd96b078113d70e643a9dfa701))
+
+## [1.24.0](https://github.com/AbdallahBedir/design-system/compare/v1.23.0...v1.24.0) (2022-06-10)
+
+
+### Features
+
+* add dist ([ee07b2a](https://github.com/AbdallahBedir/design-system/commit/ee07b2a0e396eef53942abb01f4115f53344f1d2))
+* fix ss ([5330530](https://github.com/AbdallahBedir/design-system/commit/53305307b2cd7b107f0a6ad47a4e7bce64fd4ce4))
+* push to npm ([81d148b](https://github.com/AbdallahBedir/design-system/commit/81d148ba1e065c489d8b133395ceceac0ae84d32))
+
 ## [1.23.0](https://github.com/AbdallahBedir/design-system/compare/v1.22.0...v1.23.0) (2022-06-10)
 
 ### Bug Fixes
