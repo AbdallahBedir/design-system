@@ -1,3 +1,13 @@
+# Changelog
+
+## [1.23.0](https://github.com/AbdallahBedir/design-system/compare/v1.22.0...v1.23.0) (2022-06-10)
+
+
+### Features
+
+* add main ([17b4131](https://github.com/AbdallahBedir/design-system/commit/17b4131f0855e28e4304e5518ed68ef856b4b90c))
+* add main package json ([e2dd55c](https://github.com/AbdallahBedir/design-system/commit/e2dd55cbbe6a15bff7d1f8dfc9c3dcff7f4f7a68))
+* add main package json ([4ecf8b4](https://github.com/AbdallahBedir/design-system/commit/4ecf8b4e9542393e530777dc2865ba7ee7ebedc6))
 
 ### Bug Fixes
 
