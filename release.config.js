@@ -1,5 +1,5 @@
 module.exports = {
-  branches: ['staging'],
+  branches: ['main'],
   preset: 'conventionalcommits',
   plugins: [
     [

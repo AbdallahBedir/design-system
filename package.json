@@ -1,21 +1,20 @@
 {
-  "name": "@abdallahbedir/design-system",
+  "name": "@workmotion/design-system",
   "license": "MIT",
-  "version": "0.0.6",
+  "version": "0.0.0",
   "private": false,
-  "description": "abdallahbedir library pckg",
-  "author": "Abdallah Bedir",
-  "homepage": "https://github.com/AbdallahBedir/design-system.git",
+  "description": "workmotion frontend design system library",
+  "homepage": "https://github.com/workmotion/design-system.git",
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/@AbdallahBedir",
+    "registry": "https://npm.pkg.github.com/@workmotion",
     "tag": "latest"
   },
   "bugs": {
-    "url": "https://github.com/AbdallahBedir/design-system.git/issues"
+    "url": "https://github.com/workmotion/design-system.git/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/AbdallahBedir/design-system.git"
+    "url": "git+https://github.com/workmotion/design-system.git"
   },
   "scripts": {
     "build": "yarn clean; rollup -c",
@@ -49,8 +48,10 @@
   },
   "devDependencies": {
     "@babel/core": "^7.12.7",
+    "@babel/preset-env": "^7.18.2",
     "@commitlint/cli": "^11.0.0",
     "@commitlint/config-conventional": "^11.0.0",
+    "@rollup/plugin-babel": "^5.3.1",
     "@rollup/plugin-commonjs": "^16.0.0",
     "@rollup/plugin-node-resolve": "^10.0.0",
     "@semantic-release/changelog": "^5.0.1",
