@@ -1,20 +1,21 @@
 {
-  "name": "@workmotion/design-system",
+  "name": "@abdallahbedir/design-system",
   "license": "MIT",
-  "version": "0.0.0",
+  "version": "0.0.6",
   "private": false,
-  "description": "workmotion frontend design system library",
-  "homepage": "https://github.com/workmotion/design-system.git",
+  "description": "abdallahbedir library pckg",
+  "author": "Abdallah Bedir",
+  "homepage": "https://github.com/AbdallahBedir/design-system.git",
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/@workmotion",
+    "registry": "https://npm.pkg.github.com/@AbdallahBedir",
     "tag": "latest"
   },
   "bugs": {
-    "url": "https://github.com/workmotion/design-system.git/issues"
+    "url": "https://github.com/AbdallahBedir/design-system.git/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/workmotion/design-system.git"
+    "url": "git+https://github.com/AbdallahBedir/design-system.git"
   },
   "scripts": {
     "build": "yarn clean; rollup -c",
@@ -127,3 +128,4 @@
     "styled-components": "^5"
   }
 }
+
